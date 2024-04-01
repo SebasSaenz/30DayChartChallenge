@@ -111,7 +111,7 @@ uk_plot <- ggplot(uk_semicircle, aes(x = x, y = y, colour = voted)) +
 # Main plot
 (germany_plot + uk_plot) / (spain_plot + france_plot) +
   plot_annotation(title = 'Eurovision',
-                  subtitle ="Number of countries that have <b style='color:#fd8d3c'>never voted</b> or <b style='color:#49006a'>voted at least once</b> for the Big four<br /> in the Eurovision contest (1975-2022). Only votes from the public were used.",
+                  subtitle ="Number of countries that have <b style='color:#fd8d3c'>never awarded</b> or <b style='color:#49006a'>awarded at least once</b> votes<br /> from the public to the Big four in the Eurovision contest (1975-2022).",
                   caption = caption,
                   theme= theme(plot.title  = element_markdown(family = "Henny Penny",
                                                           colour = "white",
